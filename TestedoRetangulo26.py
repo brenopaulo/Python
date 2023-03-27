@@ -1,0 +1,7 @@
+A=float(input('Digite o valor do primeiro lado do triângulo: '))
+B=float(input('Digite o valor do segundo lado do triângulo: '))
+C=float(input('Digite o valor do terceiro lado do triângulo: '))
+if(A**2==B**2+C**2):print('O triângulo é um triângulo retângulo')
+elif(B**2==A**2+C**2):print('O triângulo é um triângulo retângulo')
+elif(C**2==A**2+B**2):print('O triângulo é um triângulo retângulo')
+elif(A**2!=B**2+C**2 and C**2!=A**2+B**2 and B**2!=A**2+C**2):print('Não é um triângulo retângulo')
