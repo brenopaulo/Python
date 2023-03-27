@@ -1,0 +1,5 @@
+a=int(input('Insira a base do retângulo: '))
+b=int(input('Insira a altura do retângulo: '))
+print('O retângulo possui medidas {} e {}'.format(a,b))
+área=(a*b)
+print('A área do retângulo é {}'.format(área))
