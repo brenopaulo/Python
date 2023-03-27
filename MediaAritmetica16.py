@@ -1,0 +1,6 @@
+a1=int(input('Digite o primeiro valor: '))
+a2=int(input('Digite o segundo valor: '))
+a3=int(input('Digte o terceiro valor: '))
+a4=int(input('Digite o quarto valor: '))
+media=((a1+a2+a3+a4)/4)
+print('A média aritmética desses 4 valores é {}'.format(media))
