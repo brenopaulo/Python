@@ -1,0 +1,5 @@
+v0=int(input('Digite a velocidade inicial em m/s: '))
+a=int(input('Digite a aceleração em m/s ao quadrado: '))
+t=int(input('Digite o tempo de percurso em segundos: '))
+v=(v0+a*t)
+print('A velocidade final desse automóvel é {} km/h'.format(v))
