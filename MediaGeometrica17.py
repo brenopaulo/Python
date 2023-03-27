@@ -1,0 +1,5 @@
+g1=int(input('Digite o primeiro valor: '))
+g2=int(input('Digite o segundo valor: '))
+g3=int(input('Digite o terceiro valor: '))
+media=((g1*g2*g3)**(1/3))
+print('A média geométrica desses 3 valores é {}'.format(media))
