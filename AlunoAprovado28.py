@@ -1,0 +1,5 @@
+p1=float(input('Digite a sua nota da primeira avaliação: '))
+p2=float(input('Digite a sua nota da segunda avaliação: '))
+media=((p1+2*p2)/3)
+if(media>=5):print('A sua média final foi {:.1f}. Sendo a média de aprovação igual 5, você está Aprovado!!'.format(media))
+else:print('A sua média final foi {:.1f}. Sendo a média de aprovação igual a 5, você está Reprovado :('.format(media))
