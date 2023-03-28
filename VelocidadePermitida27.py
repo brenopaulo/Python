@@ -1,0 +1,12 @@
+vel=float(input('Digite a velocidade inicial em m/s: '))
+ace=float(input('Digite a aceleração em m/s**2: '))
+tem=float(input('Digite o tempo de percurso em segundos: '))
+voat=(vel+ace*tem)
+converterkm=(voat*3.6)
+print('A velocidade do veículo é {} m/s e em km/h é {} .Sendo assim, a sua faixa de velocidade é:'.format(voat,converterkm))
+if(converterkm<=40):print('Veículo muito lento')
+elif(40<converterkm<=60):print('Velocidade permitida')
+elif(60<converterkm<=80):print('Velocidade de cruzeiro')
+elif(80<converterkm<=120):print('Veículo rápido')
+elif(converterkm>120):print('Veículo muito rápido')
+    
